@@ -8,10 +8,10 @@ import ManikaGallery from './Components/ManikaGallery.jsx'
 import PanelPreview from './Components/PanelPreview.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+   <StrictMode>
     <Animation />
-    <ShaneWeberGallery />
     <ManikaGallery />
+    <ShaneWeberGallery />
     <PanelPreview />
   </StrictMode>,
 )
